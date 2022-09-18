@@ -1,9 +1,3 @@
-// Vamos a escribir una función que reciba la lista de precios de una criptomoneda en un día y
-// debemos devolver la ganancia máxima que podríamos sacar si compramos y vendemos la inversión el mismo día.
-// La lista de precios es un array de números y representa el tiempo de izquierda a derecha.
-// Por lo que ten en cuenta que no puedes comprar a un precio que esté a la derecha de la venta y
-// no puedes vender a un precio que esté a la izquierda de la compra.
-
 const pricesBtc = [39, 18, 29, 25, 34, 32, 5];
 
 function maxProfit(prices) {
