@@ -5,6 +5,7 @@
 // no puedes vender a un precio que esté a la izquierda de la compra.
 
 const pricesBtc = [39, 18, 29, 25, 34, 32, 5];
+
 function maxProfit(prices) {
   let flag = true;
   let res = 0;
@@ -25,5 +26,5 @@ function maxProfit(prices) {
   return res > 0 ? res : -1;
 }
 
-const res = maxProfit([39, 18, 29, 25, 34, 32, 5]);
+const res = maxProfit(pricesBtc);
 console.log(res); // -> 16 (compra a 18, vende a 34)
